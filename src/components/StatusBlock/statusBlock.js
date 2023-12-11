@@ -2,7 +2,7 @@ import React from 'react';
 import {Button} from "react-bootstrap";
 import styles from './statusBlock,.module.css'
 
-const StatusBlock = ({tasks,status,setStatus}) => {
+const StatusBlock = ({tasks,setStatus}) => {
 
     return (
         <div className={styles.row}>

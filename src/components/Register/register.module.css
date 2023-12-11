@@ -1,0 +1,67 @@
+/* Стили для формы */
+.authForm {
+    max-width: 300px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: white;
+}
+
+/* Стили для заголовка формы */
+.authForm h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Стили для каждого блока инпута */
+.authForm label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+/* Стили для инпутов */
+.authForm input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+/* Стили для сообщения об ошибке */
+.authForm .error {
+    color: red;
+    margin-top: 5px;
+}
+
+/* Стили для кнопки */
+.authForm button {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.authForm button:hover {
+    background-color: #0056b3;
+}
+
+/* Стили для текста под кнопкой */
+.authForm p {
+    margin-top: 10px;
+    text-align: center;
+}
+
+/* Стили для кнопки "Зарегистрироваться" или "Войти" */
+.authForm button.toggleButton {
+    background-color: transparent;
+    border: none;
+    color: #007bff;
+    text-decoration: underline;
+    cursor: pointer;
+}
